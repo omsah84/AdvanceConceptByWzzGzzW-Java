@@ -11,7 +11,7 @@ public class FloatMlty {
         float f1;
         float f2;
         
-        FunctionCode(float f1, float f2)throws Exception{
+        FunctionCode(float f1, float f2) throws Exception{
             this.f1 = f1;
             this.f2 = f2;
             
