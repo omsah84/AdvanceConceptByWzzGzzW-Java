@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class CI {
+    //calculating compound interest
     static double compund(double p, double r, double t) {
         return p * (Math.pow((1 + r / 100), t));
     }
