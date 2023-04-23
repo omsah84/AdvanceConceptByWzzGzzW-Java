@@ -20,6 +20,7 @@ public class CI {
         System.out.println("Enter the time..");
         double time = Double.parseDouble(oj.readLine());
 
+        //result printing 
         System.out.println("The compound interest is: "+compund(Prin,rate,time));
 
         
