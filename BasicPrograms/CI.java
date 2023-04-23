@@ -3,9 +3,10 @@ import java.io.InputStreamReader;
 
 public class CI {
     static double compund(double p, double r, double t) {
-        return p *(Math.pow((1 + r / 100), t));
+        return p * (Math.pow((1 + r / 100), t));
     }
 
+    //drive code
     public static void main(String[] args) throws Exception{
         BufferedReader oj = new BufferedReader(new InputStreamReader(System.in));
 
