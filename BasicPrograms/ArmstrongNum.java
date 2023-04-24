@@ -31,20 +31,25 @@ public class ArmstrongNum {
     }
 
     public static void main(String[] args) throws Exception {
+        while (true) {
+            
+            //bufferReader class object
+            BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+    
+            System.out.println("Enter the number...");
+            int num = Integer.parseInt(bf.readLine());
+    
+            boolean b = armFun(num);
+    
+            if (b == true) {
+                System.out.println("Given number is Armstrong number");
+            }
+            else {
+                System.out.println("Given number is not armstrong number..");
+            }
+            
+            System.out.println("==================================");
+        }
         
-        //bufferReader class object
-        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-
-        System.out.println("Enter the number...");
-        int num = Integer.parseInt(bf.readLine());
-
-        boolean b = armFun(num);
-
-        if (b == true) {
-            System.out.println(" Given number is Armstrong number");
-        }
-        else {
-            System.out.println("Given number is not armstrong number..");
-        }
     }
 }
