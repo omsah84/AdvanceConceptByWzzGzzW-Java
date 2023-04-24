@@ -28,9 +28,11 @@ public class VowOrConso {
         System.out.println("Enter the character...");
         char c = bf.readLine().charAt(0);
 
-        //ret
+        //return vowel or consonant
         String str = voString(c);
-    
+
+
+        //if str is vowel than print vowel otherwise print consonant.
         System.out.println(str == "vowel"? "vowel":"consonant");
     }
 }
