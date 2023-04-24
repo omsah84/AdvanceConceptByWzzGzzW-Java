@@ -5,9 +5,7 @@ import java.io.*;
 
 //main class
 public class FloatMlty {
-
-
-    static class FunctionCode {
+        static class FunctionCode {
         float f1;
         float f2;
         
@@ -23,6 +21,7 @@ public class FloatMlty {
     public static void main(String[] args) throws Exception{
         //creating object  of bufferedReader class
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+
 
         //taking floating data from user
         //first floating data and converting as a float
