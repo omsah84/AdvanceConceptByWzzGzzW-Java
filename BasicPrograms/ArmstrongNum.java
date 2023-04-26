@@ -24,8 +24,7 @@ public class ArmstrongNum {
         }
 
     }
-    
-    
+    //calculate cube
     static int cub(int rem) {
         return rem * rem * rem;
     }
@@ -35,15 +34,16 @@ public class ArmstrongNum {
             
             //bufferReader class object
             BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-    
+            //as input data have string so  converting string into int 
             System.out.println("Enter the number...");
             int num = Integer.parseInt(bf.readLine());
-    
+            //return true or false 
             boolean b = armFun(num);
-    
+            //if true than print armstrong number
             if (b == true) {
                 System.out.println("Given number is Armstrong number");
             }
+            //other wise print not armstrong number
             else {
                 System.out.println("Given number is not armstrong number..");
             }
