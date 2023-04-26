@@ -24,8 +24,10 @@ public class LCM {
     public static void main(String[] args) {
         
         Scanner ob = new Scanner(System.in);
+        //fist number
         System.out.println("Enter the first numebr..");
         int num1 = ob.nextInt();
+        //seond number
         System.out.println("Enter the second number..");
         int num2 = ob.nextInt();
 
