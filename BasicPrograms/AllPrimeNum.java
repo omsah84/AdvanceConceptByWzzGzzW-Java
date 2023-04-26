@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class AllPrimeNum {
     public static void main(String[] args) {
-        int N = 45;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number..");
+        int N = sc.nextInt();
         prime_N(N);
 
     }
@@ -18,7 +22,6 @@ public class AllPrimeNum {
             }
         }
     }
-
     static void show(int i) {
         System.out.print(i+" ");
         return;
