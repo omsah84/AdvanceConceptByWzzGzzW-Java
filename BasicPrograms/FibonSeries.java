@@ -25,21 +25,15 @@ public class FibonSeries {
         //class 
         Scanner sc = new Scanner(System.in);
 
-
         //input from user
         System.out.println("Enter the number..");
         int num = sc.nextInt();
-
         int a = 0;
         int b = 1;
-        
         //for coranl case
         int i = 2;
-
         //formating syntax
         System.out.printf("%d %d ", a, b);
-        
-
         //calling task dower
         fibo(num,a,b,i);
     }

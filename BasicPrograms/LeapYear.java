@@ -2,6 +2,8 @@ import java.security.spec.EdDSAParameterSpec;
 import java.util.Scanner;
 
 public class LeapYear {
+
+    //to find the leap or not
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();

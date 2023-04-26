@@ -23,12 +23,15 @@ public class EvenSumFibo {
         
         return add;
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
+    public static void main(String[] args) {
+        
+        //Scanner call object
+        Scanner sc = new Scanner(System.in);
+        //input 
         System.out.println("Enter the number");
         int num = sc.nextInt();
-
+        //store return value from evensum function
         int add = evensumfib(num);
         System.out.println("The sum of even fin series is: "+ add);
        
