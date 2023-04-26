@@ -7,4 +7,4 @@ i am OMSAH.
 
 Thanks for here...
 
-This problems are belongs very basic but we implementing using advance concept of java.
+This problems are belongs very basic but we have implemented using advance concept of java.
