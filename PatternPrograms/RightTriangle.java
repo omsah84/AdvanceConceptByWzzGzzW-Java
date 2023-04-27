@@ -1,7 +1,10 @@
 package PatternPrograms;
 
 public class RightTriangle {
+<<<<<<< HEAD
+=======
     //main function
+>>>>>>> arr
     public static void main(String[] args) {
         int n = 5;
         //for row 
