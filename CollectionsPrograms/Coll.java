@@ -1,5 +1,8 @@
 package CollectionsPrograms;
 
+import java.util.Hashtable;
+import java.util.Vector;
+
 public class Coll {
     public static void main(String[] args)
     {
