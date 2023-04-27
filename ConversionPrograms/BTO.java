@@ -11,6 +11,8 @@ public class BTO {
 
     }
 
+    //static method
+
     static int binaryToDecimalNUmber(long binary) {
         int decimalNumber = 0, i = 0;
         while (binary > 0) {
@@ -20,6 +22,10 @@ public class BTO {
         }
         return decimalNumber;
     }
+
+      
+    //main function
+    
     public static void main(String[] args) {
         System.out.println("Octal number: "+decimalToOctal(10101001));
     }
