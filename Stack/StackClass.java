@@ -20,8 +20,7 @@ public class StackClass {
 
         static Node head;
 
-
-        
+        //isempty function
         public static boolean isEmpty() {
             return head == null;
         }
