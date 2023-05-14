@@ -3,6 +3,7 @@
 
 public class StackClass {
 
+    //new node
     static class Node {
         int data;
         Node next;
@@ -13,10 +14,14 @@ public class StackClass {
         }
     }
 
+
+    //stack implementation
     static class Stack {
 
         static Node head;
 
+
+        
         public static boolean isEmpty() {
             return head == null;
         }
