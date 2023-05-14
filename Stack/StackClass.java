@@ -24,7 +24,7 @@ public class StackClass {
         public static boolean isEmpty() {
             return head == null;
         }
-        
+
         //add function
         public static void push(int data) {
             Node newNode = new Node(data);
@@ -38,20 +38,21 @@ public class StackClass {
             head = newNode;
             return;
         }
-        
+
         //remove function
         public static int pop() {
             if (isEmpty()) {
                 System.out.println("Stack is empty..");
                 return -1;
             }
-            
+
             int top = head.data;
             head = head.next;
             return top;
 
         }
 
+        //peek function
         public static int peek() {
             if (isEmpty()) {
                 System.out.println("Stack is empty..");
@@ -59,10 +60,12 @@ public class StackClass {
             }
 
             return head.data;
-            
+
         }
 
     }
+    
+    //main diver code
     public static void main(String[] args) {
         Stack s = new Stack();
         s.push(1);
@@ -72,7 +75,7 @@ public class StackClass {
         s.push(5);
         s.push(6);
 
-        // System.out.println(s.pop());
+        // traversing 
         while (!s.isEmpty())
         {
             System.out.println(s.peek());
