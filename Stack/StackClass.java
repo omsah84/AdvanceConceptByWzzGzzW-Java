@@ -25,6 +25,7 @@ public class StackClass {
             return head == null;
         }
         
+        //add function
         public static void push(int data) {
             Node newNode = new Node(data);
 
