@@ -34,12 +34,12 @@ public class StackClass {
                 return;
             }
 
-
             newNode.next = head;
             head = newNode;
             return;
         }
         
+        //remove function
         public static int pop() {
             if (isEmpty()) {
                 System.out.println("Stack is empty..");
